@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Interaktif</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="backgroundCanvas"></canvas>
+    <div class="container" id="startPage">
+      <h1>Selamat Datang di Quiz Interaktif!</h1>
+      <p>Klik tombol di bawah untuk memulai quiz.</p>
+      <button class="btn" id="startQuiz">Mulai Quiz</button>
+    </div>
+
+    <div class="container" id="quizPage" style="display: none">
+      <h1>Quiz Interaktif</h1>
+      <div id="quiz"></div>
+      <button class="btn" id="submit">Selesai</button>
+    </div>
+
+    <div class="container" id="resultPage" style="display: none">
+      <h1>Quiz Selesai!</h1>
+      <p id="scoreDisplay"></p>
+      <button class="btn" id="restartQuiz">Kembali ke Halaman Awal</button>
+      <button class="btn" id="exitQuiz">Akhiri Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
